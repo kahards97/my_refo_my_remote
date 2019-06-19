@@ -6,12 +6,9 @@
     </head>
 
     <body>
-        <p>Nama : Kahar Muzakkar</p>
-        <p>Kelas : C</p>
-        <p>Nim : 60200116096</p>
-
-        <div>
-            <img src="Images/kahar.jpg" alt="Profile Image">
+       
+        <div id= "profile-container">
+            <img id="profile-Images" src="Images/kahar.jpg" alt="Profile Image">
             <h1>Kahar Muzakkar</h1>
         </div>
     </body>
