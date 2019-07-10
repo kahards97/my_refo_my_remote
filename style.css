@@ -1,21 +1,40 @@
-body{
-    width: 100%;
-    height: 100%;
-    background-color: antiquewhite;
-
-}
-
-#header{
+header{
     width: 100%;
     height: 50px;
-    position: absolute;
     line-height: 50px;
     background-color: burlywood;
     text-align: center;
     color: white;
 }
 
-#footer{
+
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;s
+    background-color: antiquewhite;
+}
+#profile-container{
+    max-width: 300px;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 6px;
+    margin: 80px auto;
+}
+#profile-image{
+    width: 100%;
+    height: auto;
+}
+
+#profile-name{
+    text-align: center;
+}
+
+footer{
     width: 100%;
     height: 50px;
     position: absolute;
@@ -24,21 +43,4 @@ body{
     background-color: burlywood;
     text-align: center;
     color: white;
-}
-
-#profile-container{
-    max-width: 300%;
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 6px;
-    margin: auto;
-}
-
-#profile-images{
-    width: 100%;
-    height: auto;
-}
-
-#profile-name{
-    text-align: left;
 }
